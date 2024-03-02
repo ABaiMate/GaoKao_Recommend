@@ -1,0 +1,1 @@
+import{R as s,H as t}from"./useRequest-4cb19bee.js";const d={getById:e=>new s(t.GET,`/bbs/${e}`),getListByIds:e=>new s(t.GET,`/bbs/list/${e}`),getList:e=>new s(t.GET,"/bbs/list",e),getPage:e=>new s(t.GET,"/bbs/page",e),create:e=>new s(t.POST,"/bbs",e),modifyById:(e,b)=>new s(t.PUT,`/bbs/${e}`,b),deleteById:e=>new s(t.DELETE,`/bbs/${e}`)};export{d as B};

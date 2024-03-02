@@ -1,0 +1,1 @@
+import{r as a,c as s}from"./index-d31968a7.js";function c(u=0){let e=a(u),t=s(()=>(e.value<0&&(e.value=0),e.value>0));function i(r=1){return e.value+=r,e}function n(r=1){return e.value-=r,e}return{times:e,isLoading:t,incrTimes:i,decrTimes:n}}export{c as u};

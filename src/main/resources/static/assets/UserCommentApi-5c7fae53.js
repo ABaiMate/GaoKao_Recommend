@@ -1,0 +1,1 @@
+import{R as t,H as m}from"./useRequest-4cb19bee.js";const o={getById:e=>new t(m.GET,`/user-comment/${e}`),getList:e=>new t(m.GET,"/user-comment/list",e),getPage:e=>new t(m.GET,"/user-comment/page",e),create:e=>new t(m.POST,"/user-comment/",e),modify:(e,n)=>new t(m.PUT,`/user-comment/${e}`,n),deleteById:e=>new t(m.DELETE,`/user-comment/${e}`)};export{o as U};

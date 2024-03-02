@@ -1,0 +1,1 @@
+function a(o,s){const t=[];for(let n=0;n<o.length;n++)n%s===0&&t.push([]),t[t.length-1].push(o[n]);return t}function i(o,s,t,n){const r=[];for(let e of o)if(s&&t){const u=s(e),l=t(e);r.push({label:n?`${u} (${l})`:u,value:l})}else r.push({label:e,value:e});return r}export{i as a,a as u};

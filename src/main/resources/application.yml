@@ -1,0 +1,29 @@
+token: h/XlUbJ0J21ycNvdIZ3LHtuFpsNCTEl9OAfaJasR412EckdaX+9+QVH+iGpQKbabpUxerg28QVNJl4a2cIcLr3D8RiLv6qirzYSs+t/k5yrf5ymkJGXIFTdw9t89wCI4Kz+VvrZGLIUtpDjXf6qL4Lki/0FyiSOxH5VuvI+jIlg=
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active: dev
+  jackson:
+    time-zone: GMT+8
+    default-property-inclusion: non_null
+    deserialization:
+      read_unknown_enum_values_as_null: true
+  servlet:
+    multipart:
+      max-file-size: 1024MB
+      max-request-size: 1024MB
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/gaokao_forum?useUnicode=true&characterEncoding=UTF-8&useSSL=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+
+mybatis-plus:
+  global-config:
+    banner: false
+    db-config:
+      column-format: "`%s`"
+      logic-delete-value: NOW()
+      logic-not-delete-value: 'NULL'

@@ -1,0 +1,32 @@
+.captcha[data-v-c0da4110] {
+    width: 80px
+}
+
+.card[data-v-c895c7bb] {
+    width: 380px
+}
+
+.logo[data-v-c895c7bb] {
+    width: 60px;
+    height: 60px
+}
+
+.logo[data-v-c895c7bb]:hover {
+    filter: drop-shadow(0 0 2em rgba(100, 108, 255, .667))
+}
+
+.bg-logo[data-v-c895c7bb] {
+    background-color: #201b4f;
+    background-image: linear-gradient(180deg, #404040 0, #1e1e1e 100%), linear-gradient(126deg, #201b4f 15%, #0b0930 100%);
+    box-shadow: 0 2px 5px #211b4f
+}
+
+.bg-login-btn[data-v-c895c7bb] {
+    background: center center #4a54ff;
+    background-image: linear-gradient(315deg, #6772ff 0, #00f9e5 100%);
+    color: #fff
+}
+
+.background[data-v-c895c7bb] {
+    background-image: url(/assets/background-7660ef1f.jpg)
+}

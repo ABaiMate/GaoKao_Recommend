@@ -1,0 +1,8 @@
+server:
+  port: 8000
+spring:
+  main:
+    lazy-initialization: false
+mx3:
+  api:
+    enable: true
